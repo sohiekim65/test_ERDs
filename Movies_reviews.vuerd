@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -202.40000000000006,
-    "scrollLeft": -208,
+    "scrollTop": -114.40000000000002,
+    "scrollLeft": -214.3999999999997,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 29.6,
-          "top": 44.8,
-          "zIndex": 90,
+          "left": 145.6,
+          "top": 42.8,
+          "zIndex": 106,
           "widthName": 60,
           "widthComment": 60
         },
@@ -226,9 +226,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 28.6,
-          "top": 248.4,
-          "zIndex": 86,
+          "left": 616.886,
+          "top": 446.6861,
+          "zIndex": 108,
           "widthName": 80,
           "widthComment": 60
         },
@@ -288,9 +288,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 596.6,
-          "top": 74.4,
-          "zIndex": 97,
+          "left": 641.1712,
+          "top": 170.4001,
+          "zIndex": 111,
           "widthName": 67,
           "widthComment": 60
         },
@@ -350,9 +350,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 613.2,
-          "top": 263.4,
-          "zIndex": 96,
+          "left": 27.2,
+          "top": 309.4,
+          "zIndex": 104,
           "widthName": 60,
           "widthComment": 60
         },
@@ -412,9 +412,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 30.4,
-          "top": 394.2,
-          "zIndex": 88,
+          "left": 154.4,
+          "top": 524.2,
+          "zIndex": 105,
           "widthName": 60,
           "widthComment": 60
         },
@@ -438,8 +438,8 @@
           "columnIds": [
             "dcfc94b5-6446-4e71-8c8a-a32407cc290a"
           ],
-          "x": 386.976953125,
-          "y": 87.675,
+          "x": 502.976953125,
+          "y": 128.55,
           "direction": "right"
         },
         "end": {
@@ -447,8 +447,8 @@
           "columnIds": [
             "89806236-44ce-4c4c-8e45-3a08098d9ca5"
           ],
-          "x": 596.6,
-          "y": 101.9,
+          "x": 641.1712,
+          "y": 225.4001,
           "direction": "left"
         },
         "constraintName": "fk_리뷰들_to_영화이름들",
@@ -464,18 +464,18 @@
           "columnIds": [
             "ca1dc723-3a70-4df6-a298-1f71d1e16fa5"
           ],
-          "x": 415.35390625,
-          "y": 303.4,
-          "direction": "right"
+          "x": 810.262953125,
+          "y": 446.6861,
+          "direction": "top"
         },
         "end": {
           "tableId": "139c9ed1-d6d2-46a6-9e99-1b8a53a08585",
           "columnIds": [
             "0e55976b-992a-4ab7-90b6-37c6d714fa10"
           ],
-          "x": 596.6,
-          "y": 156.9,
-          "direction": "left"
+          "x": 834.548153125,
+          "y": 280.4001,
+          "direction": "bottom"
         },
         "constraintName": "fk_영화이름목록_to_영화이름들",
         "visible": true,
@@ -490,18 +490,18 @@
           "columnIds": [
             "b3615c01-af83-46bc-b72e-eda70c5f1a01"
           ],
-          "x": 413.776953125,
-          "y": 449.2,
-          "direction": "right"
+          "x": 346.0884765625,
+          "y": 524.2,
+          "direction": "top"
         },
         "end": {
           "tableId": "df5d07d2-0380-459d-aeb7-41ddf10e53bc",
           "columnIds": [
             "6f98a7e0-ae4f-42fa-8be6-23876226f57b"
           ],
-          "x": 613.2,
-          "y": 290.9,
-          "direction": "left"
+          "x": 218.8884765625,
+          "y": 419.4,
+          "direction": "bottom"
         },
         "constraintName": "fk_사용자들_to_작성자들",
         "visible": true,
@@ -516,18 +516,18 @@
           "columnIds": [
             "dcfc94b5-6446-4e71-8c8a-a32407cc290a"
           ],
-          "x": 386.976953125,
-          "y": 173.425,
-          "direction": "right"
+          "x": 324.2884765625,
+          "y": 214.3,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "df5d07d2-0380-459d-aeb7-41ddf10e53bc",
           "columnIds": [
             "921c779a-0cfb-476e-b324-b5539a14f2b5"
           ],
-          "x": 613.2,
-          "y": 345.9,
-          "direction": "left"
+          "x": 218.8884765625,
+          "y": 309.4,
+          "direction": "top"
         },
         "constraintName": "fk_리뷰들_to_작성자들",
         "visible": true,

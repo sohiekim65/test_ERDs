@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -201.60000000000002,
-    "scrollLeft": -218.39999999999998,
+    "scrollTop": -215.2,
+    "scrollLeft": -257.59999999999997,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -70,7 +70,7 @@
             "id": "9e705e47-4b83-454b-90e3-054123fd84de"
           },
           {
-            "name": "UNIQUE_ID",
+            "name": "STORE_UNIQUE_ID",
             "comment": "사업장 대표값",
             "dataType": "INTEGER",
             "default": "",
@@ -85,7 +85,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 72.33203125,
+              "widthName": 117.806640625,
               "widthComment": 83.376953125,
               "widthDataType": 60,
               "widthDefault": 60
@@ -97,7 +97,7 @@
           "active": false,
           "left": 73.1746,
           "top": 425.5336,
-          "zIndex": 353,
+          "zIndex": 396,
           "widthName": 87.89013671875,
           "widthComment": 90.81005859375
         },
@@ -132,7 +132,7 @@
             "id": "d39d0e60-507b-49f9-9c47-f3792c2864a5"
           },
           {
-            "name": "UNIQUE_ID",
+            "name": "STORE_UNIQUE_ID",
             "comment": "사업장 대표값",
             "dataType": "INTEGER",
             "default": "",
@@ -147,7 +147,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 72.33203125,
+              "widthName": 117.806640625,
               "widthComment": 83.376953125,
               "widthDataType": 60,
               "widthDefault": 60
@@ -157,9 +157,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 641.6407,
-          "top": 245.196,
-          "zIndex": 357,
+          "left": 643.6407,
+          "top": 234.196,
+          "zIndex": 405,
           "widthName": 87.89013671875,
           "widthComment": 90.81005859375
         },
@@ -357,7 +357,7 @@
         "comment": "지역 목록",
         "columns": [
           {
-            "name": "UNIQUE_ID",
+            "name": "STORE_UNIQUE_ID",
             "comment": "사업장 대표값",
             "dataType": "INTEGER",
             "default": "",
@@ -372,7 +372,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 72.33203125,
+              "widthName": 117.806640625,
               "widthComment": 83.376953125,
               "widthDataType": 60,
               "widthDefault": 60
@@ -405,9 +405,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 654.2574,
-          "top": 75.8861,
-          "zIndex": 355,
+          "left": 658.2574,
+          "top": 77.8861,
+          "zIndex": 402,
           "widthName": 82.564453125,
           "widthComment": 60
         },
@@ -415,7 +415,7 @@
         "id": "e1632d4e-0344-4e3a-bfe0-504e6710ffe9"
       },
       {
-        "name": "SPONSOR",
+        "name": "STORE",
         "comment": "사업장",
         "columns": [
           {
@@ -488,7 +488,7 @@
             "id": "30680ffa-7a59-4d8c-a08c-aace3624b6cb"
           },
           {
-            "name": "SOTRE_CALL",
+            "name": "STORE_CALL",
             "comment": "사업장 연락처",
             "dataType": "VARCHAR(200)",
             "default": "",
@@ -503,7 +503,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 77.55615234375,
+              "widthName": 77.61962890625,
               "widthComment": 83.376953125,
               "widthDataType": 90.283203125,
               "widthDefault": 60
@@ -511,7 +511,7 @@
             "id": "e248532b-9a88-4644-a537-e1be76b92e0e"
           },
           {
-            "name": "SOTRE_ADDRESS",
+            "name": "STORE_ADDRESS",
             "comment": "사업장 주소",
             "dataType": "VARCHAR(200)",
             "default": "",
@@ -526,7 +526,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 104.2861328125,
+              "widthName": 104.349609375,
               "widthComment": 70.376953125,
               "widthDataType": 90.283203125,
               "widthDefault": 60
@@ -534,7 +534,7 @@
             "id": "52e9efbb-9fc1-46ab-a478-f890b294d3f7"
           },
           {
-            "name": "STORE_DATE",
+            "name": "STORE_TIME",
             "comment": "사업장 영업시간",
             "dataType": "VARCHAR(200)",
             "default": "",
@@ -549,7 +549,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 79.162109375,
+              "widthName": 78.1337890625,
               "widthComment": 96.376953125,
               "widthDataType": 90.283203125,
               "widthDefault": 60
@@ -607,8 +607,8 @@
           "active": false,
           "left": 70.8702,
           "top": 71.8576,
-          "zIndex": 379,
-          "widthName": 62.39794921875,
+          "zIndex": 414,
+          "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
@@ -692,8 +692,8 @@
           "columnIds": [
             "d39d0e60-507b-49f9-9c47-f3792c2864a5"
           ],
-          "x": 874.562819140625,
-          "y": 355.196,
+          "x": 876.562819140625,
+          "y": 344.196,
           "direction": "bottom"
         },
         "constraintName": "fk_target1_to_target1_list",
@@ -718,8 +718,8 @@
           "columnIds": [
             "1ff4b6c8-6ed0-46ae-a06a-2c766cd712f1"
           ],
-          "x": 641.6407,
-          "y": 300.196,
+          "x": 643.6407,
+          "y": 289.196,
           "direction": "left"
         },
         "constraintName": "fk_sponsor_to_target1_list",
@@ -744,8 +744,8 @@
           "columnIds": [
             "3e6e2520-48d1-40e8-b87b-e3e86428a25f"
           ],
-          "x": 654.2574,
-          "y": 130.8861,
+          "x": 658.2574,
+          "y": 132.8861,
           "direction": "left"
         },
         "constraintName": "fk_sponsor_to_region_list",
@@ -770,8 +770,8 @@
           "columnIds": [
             "f13c4d2e-01f8-4e45-a124-917684f73031"
           ],
-          "x": 1091.9497828125,
-          "y": 130.8861,
+          "x": 1095.9497828125,
+          "y": 132.8861,
           "direction": "right"
         },
         "constraintName": "fk_region_to_region_list",

@@ -44,7 +44,7 @@
     "tables": [
       {
         "name": "ORGANIZATION",
-        "comment": "",
+        "comment": "조직도",
         "columns": [
           {
             "name": "UNIQUE_ID",
@@ -117,10 +117,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 32,
           "top": 121.6,
-          "zIndex": 3,
+          "zIndex": 5,
           "widthName": 99.25244140625,
           "widthComment": 60
         },

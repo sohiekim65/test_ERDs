@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -0.8,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -44,7 +44,7 @@
     "tables": [
       {
         "name": "BICYCLE",
-        "comment": "",
+        "comment": "자전거",
         "columns": [
           {
             "name": "UNIQUE_ID",
@@ -120,7 +120,7 @@
           "active": false,
           "left": 22.4,
           "top": 68,
-          "zIndex": 47,
+          "zIndex": 49,
           "widthName": 60,
           "widthComment": 60
         },

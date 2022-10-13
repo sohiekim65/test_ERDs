@@ -49,7 +49,7 @@
           {
             "name": "UNIQUE_ID",
             "comment": "대표값",
-            "dataType": "VARCHAR(200)CC(200((((122))",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 72.33203125,
               "widthComment": 60,
-              "widthDataType": 178.46484375,
+              "widthDataType": 90.283203125,
               "widthDefault": 60
             },
             "id": "11dec120-4e5b-4821-bc92-9d2c172167d1"
@@ -93,9 +93,9 @@
             "id": "aa271c02-a95a-47ee-b512-b990e5d97eea"
           },
           {
-            "name": "UNIQUE_ID_PARENT",
-            "comment": "상위대표값",
-            "dataType": "VARCHAR(200)CC(200((((122))",
+            "name": "UNIQUE_ID_CHILD",
+            "comment": "하위대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -108,9 +108,9 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 126.38232421875,
+              "widthName": 116.65771484375,
               "widthComment": 67,
-              "widthDataType": 178.46484375,
+              "widthDataType": 90.283203125,
               "widthDefault": 60
             },
             "id": "6305c82c-ae22-4174-abb9-e90aeec6dbf4"
@@ -118,9 +118,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 32,
-          "top": 121.6,
-          "zIndex": 5,
+          "left": 28,
+          "top": 99.2,
+          "zIndex": 19,
           "widthName": 99.25244140625,
           "widthComment": 60
         },
@@ -144,8 +144,8 @@
           "columnIds": [
             "11dec120-4e5b-4821-bc92-9d2c172167d1"
           ],
-          "x": 550.84716796875,
-          "y": 121.6,
+          "x": 448.94091796875,
+          "y": 99.2,
           "direction": "top"
         },
         "end": {
@@ -153,8 +153,8 @@
           "columnIds": [
             "6305c82c-ae22-4174-abb9-e90aeec6dbf4"
           ],
-          "x": 570.84716796875,
-          "y": 141.6,
+          "x": 468.94091796875,
+          "y": 119.2,
           "direction": "right"
         },
         "constraintName": "fk_organization_to_organization",

@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -190.39999999999998,
-    "scrollLeft": 0,
+    "scrollTop": -185.60000000000002,
+    "scrollLeft": -190.39999999999964,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -185,8 +185,8 @@
             "id": "5a637428-86bf-45a0-a5c0-b2ca295fd978"
           },
           {
-            "name": "MULTI_BOARD",
-            "comment": "멀티보드",
+            "name": "BOARD",
+            "comment": "보드",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -200,7 +200,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 91.7431640625,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 90.283203125,
               "widthDefault": 60
@@ -235,7 +235,7 @@
           "active": false,
           "left": 18,
           "top": 99,
-          "zIndex": 303,
+          "zIndex": 331,
           "widthName": 91.7431640625,
           "widthComment": 60
         },
@@ -395,7 +395,7 @@
         "columns": [
           {
             "name": "COMMENT_WRITER",
-            "comment": "",
+            "comment": "댓글작성자",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -410,7 +410,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 121.06298828125,
-              "widthComment": 60,
+              "widthComment": 67,
               "widthDataType": 90.283203125,
               "widthDefault": 60
             },
@@ -418,7 +418,7 @@
           },
           {
             "name": "COMMENT_DATE",
-            "comment": "",
+            "comment": "댓글작성날짜",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -433,7 +433,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 105.619140625,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 90.283203125,
               "widthDefault": 60
             },
@@ -441,7 +441,7 @@
           },
           {
             "name": "COMMENT_TIME",
-            "comment": "",
+            "comment": "댓글작성시간",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -456,7 +456,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 104.5908203125,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 90.283203125,
               "widthDefault": 60
             },
@@ -464,7 +464,7 @@
           },
           {
             "name": "UNIQUE_ID",
-            "comment": "",
+            "comment": "댓글대표값",
             "dataType": "INTEGER",
             "default": "",
             "option": {
@@ -479,7 +479,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 72.33203125,
-              "widthComment": 60,
+              "widthComment": 67,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -513,7 +513,7 @@
           "active": false,
           "left": 657.4,
           "top": 31.4,
-          "zIndex": 291,
+          "zIndex": 312,
           "widthName": 68.16162109375,
           "widthComment": 60
         },
@@ -521,12 +521,12 @@
         "id": "992085b5-82ab-480b-85af-0837313b4829"
       },
       {
-        "name": "BOARD_MENU",
-        "comment": "",
+        "name": "BOARD_LIST",
+        "comment": "멀티보드목록",
         "columns": [
           {
-            "name": "CATEGORY",
-            "comment": "",
+            "name": "MULTIBOARD",
+            "comment": "멀티보드",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -540,7 +540,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 67.5966796875,
+              "widthName": 85.97314453125,
               "widthComment": 60,
               "widthDataType": 90.283203125,
               "widthDefault": 60
@@ -574,21 +574,21 @@
         "ui": {
           "active": false,
           "left": 686.2,
-          "top": 216.4,
-          "zIndex": 304,
-          "widthName": 90.53076171875,
-          "widthComment": 60
+          "top": 215.4,
+          "zIndex": 335,
+          "widthName": 77.70849609375,
+          "widthComment": 80
         },
         "visible": true,
         "id": "518e1b88-f660-440a-aec6-6902afe88ae9"
       },
       {
         "name": "CATEGORY",
-        "comment": "",
+        "comment": "게시판",
         "columns": [
           {
             "name": "UNIQUE_ID_CATEGORY",
-            "comment": "",
+            "comment": "게시판대표값",
             "dataType": "INTEGER",
             "default": "",
             "option": {
@@ -603,7 +603,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 143.69873046875,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -637,7 +637,7 @@
           "active": false,
           "left": 659.2,
           "top": 380,
-          "zIndex": 197,
+          "zIndex": 339,
           "widthName": 67.5966796875,
           "widthComment": 60
         },
@@ -646,11 +646,11 @@
       },
       {
         "name": "CATEGORY_LIST",
-        "comment": "",
+        "comment": "게시판목록",
         "columns": [
           {
             "name": "CATEGORY",
-            "comment": "",
+            "comment": "게시판",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -673,7 +673,7 @@
           },
           {
             "name": "UNIQUE_ID",
-            "comment": "",
+            "comment": "대표값",
             "dataType": "INTEGER",
             "default": "",
             "option": {
@@ -699,9 +699,9 @@
           "active": false,
           "left": 628.6,
           "top": 586.8,
-          "zIndex": 267,
+          "zIndex": 345,
           "widthName": 98.94775390625,
-          "widthComment": 60
+          "widthComment": 67
         },
         "visible": true,
         "id": "10b74295-6c01-4832-819b-68ce1a0d2780"
@@ -811,7 +811,7 @@
             "628de990-ecf9-46c1-8521-e40e63131182"
           ],
           "x": 686.2,
-          "y": 271.4,
+          "y": 270.4,
           "direction": "left"
         },
         "constraintName": "fk_multi_board_to_category",
